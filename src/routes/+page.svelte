@@ -1,6 +1,11 @@
+<script>
+  	import heroimage from '$lib/images/hero-image.jpg';
+
+</script>
+
 <main class="pt-20 relative">
     <div class="relative flex w-full h-screen">
-        <div class="absolute flex flex-col items-start p-12 w-[25%] bg-[#232323]">
+        <div class="absolute h-screen flex flex-col justify-center items-start bg-[#232323] sm:p-4 sm:invisible sm:hidden sm:w-full md:p-8 lg:p-12 lg:visible lg:flex lg:w-[28%] ">
             <h1 class="text-[40px] text-white font-bold">Raw Ham Colorblock T-shirt</h1>
             <span class="flex gap-2 py-4 items-center">
                 <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
@@ -39,7 +44,7 @@
                       </span>
                     </div>
                 </div>
-                <div class="flex ml-6  items-center">
+                <div class="flex ml-4  items-center">
                     <div class="relative">
                       <select class="bg-black text-white appearance-none py-2 focus:outline-none focus:ring-2 focus:border-indigo-500 text-base pl-3 pr-10">
                         <option class="text-sm">Color</option>
@@ -55,7 +60,7 @@
                       </span>
                     </div>
                 </div>
-                <div class="flex ml-6  items-center">
+                <div class="flex ml-4  items-center">
                     <div class="relative">
                       <select class="bg-black text-white appearance-none py-2 focus:outline-none focus:ring-2 focus:border-indigo-500 text-base pl-3 pr-10">
                         <option class="text-sm">Qty</option>
@@ -73,7 +78,7 @@
                 </div>
             </div>
 
-            <div class="flex gap-4 py-6">
+            <div class="flex gap-4 py-8">
                 <div class="flex justify-center items-center border bg-white text-black hover:bg-black hover:text-white px-6 py-2 font-semibold text-sm">
                     <a href="/"><button>Add To Cart</button></a>
                 </div>
@@ -83,9 +88,51 @@
                     </span>
                 </div>
             </div>
+            <div class="flex items-center gap-4">
+              <span class="text-white">Share With</span>
+              <ul class="flex gap-4 px-4 py-1 bg-black">
+                <li><a href="/"><i class="fa-brands fa-facebook-f text-blue-700"></i></a></li>
+                <li><a href="/"><i class="fa-brands fa-google text-green-500"></i></a></li>
+                <li><a href="/"><i class="fa-brands fa-twitter text-sky-400"></i></a></li>
+              </ul>
+            </div>
         </div>
-        <div class="right">
 
+        <!-- right side -->
+        <div class="absolute flex h-screen bg-cover bg-no-repeat sm:w-[100vw] lg:w-[72%] lg:left-[28%]"
+            style="background-position:center center; background-image:url('{heroimage}')"
+          >
+          <div class="flex flex-col h-full items-start justify-center pl-12">
+            <span class="font-semibold text-lg">
+              Sale<span class="text-pink pl-2">70% OFF</span>
+            </span>
+            <span class="py-6">
+              <h1 class="text-6xl font-bold text-black">New <br> Tranding <br> Fashion</h1>
+            </span>
+            <span class="py-4">
+              <p class="uppercase text-md font-bold tracking-widest">Buy One Get One <span class="text-pink">Free</span></p>
+            </span>
+            <div class="flex gap-4 py-4">
+              <div class="">
+                <i class="fa-solid fa-play text-md bg-pink text-white py-[14px] px-[16px] p rounded-full border-4 border-slate-200"></i>
+              </div>
+              <div class="flex flex-col ">
+                <span class="text-pink text-xl">Discover</span>
+                <span class="text-slate-800 text-sm">Our Collection</span>
+              </div>
+            </div>
+          </div>
+          <!-- <img src="{heroimage}" alt=""> -->
         </div>
     </div>
 </main>
+
+<!-- <style>
+  .fab.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  }
+</style> -->

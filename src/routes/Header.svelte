@@ -7,7 +7,7 @@
 	import logo from '$lib/images/logo.png';
 </script>
 
-<header class="fixed bg-slate-500  w-full">
+<header class="fixed bg-white w-full">
 	<div class="flex items-center justify-between h-20 sm:px-4 md:px-12 lg:px-16 xl:px-24">
 		<div class="flex items-center justify-start">
 			<a class="flex items-center gap-1" href="/">
