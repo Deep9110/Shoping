@@ -12,6 +12,7 @@ module.exports = {
       },
       colors:{
         'pink': '#E22454',
+        'fadeblack': '#4F4045',
       },
     },
   },

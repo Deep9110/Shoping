@@ -1,9 +1,12 @@
 <script>
   	import heroimage from '$lib/images/hero-image.jpg';
+    import section21 from '$lib/images/section_2_1.jpg';
+    import section22 from '$lib/images/section_2_2.jpg';
+    import section23 from '$lib/images/section_2_3.jpg';
 
 </script>
 
-<main class="pt-20 relative">
+<main class="relative">
     <div class="relative flex w-full h-screen">
         <div class="absolute h-screen flex flex-col justify-center items-start bg-[#232323] sm:p-4 sm:invisible sm:hidden sm:w-full md:p-8 lg:p-12 lg:visible lg:flex lg:w-[28%] ">
             <h1 class="text-[40px] text-white font-bold">Raw Ham Colorblock T-shirt</h1>
@@ -125,14 +128,67 @@
           <!-- <img src="{heroimage}" alt=""> -->
         </div>
     </div>
-</main>
+        <!-- <div class="flex iteed-full  text-slate-600 hover:text-pink bg-white p-[8px] hover:bg-[#e22e5b8a]"></i>
+            </span>
+            <span class="text-md font-bold text-black">26%<span class="hover:text-pink pl-1">OFF</span></span>
+          </div>ex justify-center bottom-[60px] left-[60px] right-[60px]">
+          <div class="flex flex-col items-center justify-center text-center h-[130px] w-[320px] bg-[#212121c1] hover:bg-[#e22e5bc1]">
+            <span class="text-2xl font-bold text-white">
+              New Hoodie
+            </span>
+            <span class="py-2">
+              <p class="uppercase text-md font-bold tracking-widest text-white">Buy One Get One free</p>
+            </span>
+          </div>
+        </div>
+      </div>
 
-<!-- <style>
-  .fab.fa-google {
-  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  }
-</style> -->
+      <div class="relative h-[400px] w-[450px] bg-cover"
+            style="background-position:center center; background-image:url('{section22}')"
+        >
+        <div class="absolute w-full">
+          <div class="flex items-center justify-between p-6">
+            <span>
+              <i class="fa-regular fa-heart text-md rounded-full  text-slate-600 hover:text-pink bg-white p-[8px] hover:bg-[#e22e5b8a]"></i>
+            </span>
+            <span class="text-md font-bold text-black">26%<span class="hover:text-pink pl-1">OFF</span></span>
+          </div>
+        </div>
+        <div class="absolute flex justify-center bottom-[60px] left-[60px] right-[60px]">
+          <div class="flex flex-col items-center justify-center text-center h-[130px] w-[320px] bg-[#212121c1] hover:bg-[#e22e5bc1]">
+            <span class="text-2xl font-bold text-white">
+              New Hoodie
+            </span>
+            <span class="py-2">
+              <p class="uppercase text-md font-bold tracking-widest text-white">Buy One Get One free</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="relative flex items-cente justify-center sm:p-4 md:p-12 lg:p-16">
+      <div class="relative h-[400px] w-[450px] bg-cover"
+            style="background-position:center center; background-image:url('{section22}')"
+        >
+        <div class="absolute w-full">
+          <div class="flex items-center justify-between p-6">
+            <span>
+              <i class="fa-regular fa-heart text-md rounded-full  text-slate-600 hover:text-pink bg-white p-[8px] hover:bg-[#e22e5b8a]"></i>
+            </span>
+            <span class="text-md font-bold text-black">26%<span class="hover:text-pink pl-1">OFF</span></span>
+          </div>
+        </div>
+        <div class="absolute flex justify-center bottom-[60px] left-[60px] right-[60px]">
+          <div class="flex flex-col items-center justify-center text-center h-[130px] w-[320px] bg-[#212121c1] hover:bg-[#e22e5bc1]">
+            <span class="text-2xl font-bold text-white">
+              New Hoodie
+            </span>
+            <span class="py-2">
+              <p class="uppercase text-md font-bold tracking-widest text-white">Buy One Get One free</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
