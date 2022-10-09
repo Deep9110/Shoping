@@ -3,6 +3,14 @@
     import section21 from '$lib/images/section_2_1.jpg';
     import section22 from '$lib/images/section_2_2.jpg';
     import section23 from '$lib/images/section_2_3.jpg';
+    import section31 from '$lib/images/section_3_1.jpg';
+    import section32 from '$lib/images/section_3_2.jpg';
+    import section33 from '$lib/images/section_3_3.jpg';
+    import section34 from '$lib/images/section_3_4.jpg';
+    import section41 from '$lib/images/section_4_1.jpg';
+    import section42 from '$lib/images/section_4_2.jpg';
+    import section43 from '$lib/images/section_4_3.jpg';
+    import section44 from '$lib/images/section_4_4.jpg';
 
 </script>
 
@@ -167,7 +175,7 @@
       </div>
     </div> -->
 
-    <div class="relative flex items-cente justify-center gap-6 sm:p-4 md:p-12 lg:p-16">
+    <div class="relative flex items-cente justify-center gap-6 sm:p-4 sm:flex-wrap md:p-12 md:flex-nowrap lg:p-16 ">
       <div class="relative h-[400px] w-[450px] bg-cover"
             style="background-position:center center; background-image:url('{section21}')"
         >
@@ -236,4 +244,229 @@
         </div>
       </div>
     </div>
+
+    <!-- section-3 -->
+
+    <div class="relative flex flex-col pb-8 sm:px-4 md:px-12 lg:px-16">
+      <div class="flex flex-col justify-center items-center p-4">
+        <span class="font-bold text-3xl">New Arrival</span>
+        <span class="font-semibold text-gray-500 text-base">Our collection</span>
+      </div>
+      <div class="relative flex items-center justify-between gap-6 overflow-x-auto">
+        <div class="flex flex-col">
+          <div class="relative flex justify-center h-[410px] w-[320px] bg-cover "
+          style="background-position:center center; background-image:url('{section31}'); "
+          >
+            <div class="absolute flex items-center gap-2 px-6 bottom-4">
+              <span class=" hover:visible">
+                <i class="fa-solid fa-bag-shopping text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-eye text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-repeat text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i> 
+              </span>
+              <span>
+                <i class="fa-regular fa-heart text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center py-2">
+            <div class="flex flex-col items-start gap-2">
+              <span class="text-slate-500">B&Y Jacket</span>
+              <span class="font-semibold text-md">Slim Fit Plasitc...</span>
+            </div>
+            <div class="flex flex-col items-end">
+              <span class="flex gap-2">
+                <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+              </span>
+              <span class="font-bold text-xl text-pink">$78.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <div class="relative flex justify-center h-[410px] w-[320px] bg-cover "
+          style="background-position:center center; background-image:url('{section32}'); "
+          >
+            <div class="absolute flex items-center gap-2 px-6 bottom-4">
+              <span class=" hover:visible">
+                <i class="fa-solid fa-bag-shopping text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-eye text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-repeat text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i> 
+              </span>
+              <span>
+                <i class="fa-regular fa-heart text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center py-2">
+            <div class="flex flex-col items-start gap-2">
+              <span class="text-slate-500">B&Y Jacket</span>
+              <span class="font-semibold text-md">Slim Fit Plasitc...</span>
+            </div>
+            <div class="flex flex-col items-end">
+              <span class="flex gap-2">
+                <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+              </span>
+              <span class="font-bold text-xl text-pink">$78.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <div class="relative flex justify-center h-[410px] w-[320px] bg-cover "
+          style="background-position:center center; background-image:url('{section33}'); "
+          >
+            <div class="absolute flex items-center gap-2 px-6 bottom-4">
+              <span class=" hover:visible">
+                <i class="fa-solid fa-bag-shopping text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-eye text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-repeat text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i> 
+              </span>
+              <span>
+                <i class="fa-regular fa-heart text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center py-2">
+            <div class="flex flex-col items-start gap-2">
+              <span class="text-slate-500">B&Y Jacket</span>
+              <span class="font-semibold text-md">Slim Fit Plasitc...</span>
+            </div>
+            <div class="flex flex-col items-end">
+              <span class="flex gap-2">
+                <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+              </span>
+              <span class="font-bold text-xl text-pink">$78.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <div class="relative flex justify-center h-[410px] w-[320px] bg-cover "
+          style="background-position:center center; background-image:url('{section34}'); "
+          >
+            <div class="absolute flex items-center gap-2 px-6 bottom-4">
+              <span class=" hover:visible">
+                <i class="fa-solid fa-bag-shopping text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-eye text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-repeat text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i> 
+              </span>
+              <span>
+                <i class="fa-regular fa-heart text-md  text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
+              </span>
+            </div>
+          </div>
+          <div class="flex justify-between items-center py-2">
+            <div class="flex flex-col items-start gap-2">
+              <span class="text-slate-500">B&Y Jacket</span>
+              <span class="font-semibold text-md">Slim Fit Plasitc...</span>
+            </div>
+            <div class="flex flex-col items-end">
+              <span class="flex gap-2">
+                <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+                  <i class="fa-solid fa-star text-slate-500 text-lg"></i>
+              </span>
+              <span class="font-bold text-xl text-pink">$78.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-4 -->
+
+    <div class="relative flex flex-col pb-8 sm:px-4 md:px-12 lg:px-16">
+      <div class="flex flex-col justify-center items-center p-4">
+        <span class="font-bold text-3xl">Our Categories</span>
+        <span class="font-semibold text-gray-500 text-base">Our collection</span>
+      </div>
+      <div class="flex relative gap-6 sm:flex-col lg:flex-row">
+        <div class="absolute flex items-center justify-between sm:w-full sm:h-[120px] lg:w-[250px] bg-pink text-white px-6 py-8">
+          <div class="flex flex-col gap-4">
+            <span class="text-3xl text-white font-bold">Our Top</span>
+            <span class="text-md tracking-wide text-white font-semibold uppercase">C a t e g o r i e s</span>
+          </div>
+          <div class="flex flex-col gap-4">
+            <i class="fa-solid fa-chevron-left px-[12px] py-[6px] rounded-full bg-white hover:text-pink text-black text-sm"></i>
+            <i class="fa-solid fa-chevron-right px-[12px] py-[6px] rounded-full bg-white hover:text-pink text-black text-sm"></i>
+          </div>
+        </div>
+        <div class="flex sm:mt-[125px] sm:overflow-auto lg:overflow-hidden sm:ml-[260px] lg:mt-0 lg:ml-0 gap-6">
+        <div class="relative h-[120px] w-[260px] bg-cover sm:left-0 lg:left-[280px]"
+            style="background-position:center center; background-image:url('{section41}')"
+          >
+          <div class="h-full w-full px-4 flex flex-col justify-center text-right items-right">
+            <span class="text-2xl text-pink font-bold">Shoes</span>
+            <span class="text-base text-black">Fashion</span>
+          </div>
+        </div>
+        <div class="relative h-[120px] w-[260px] bg-cover sm:left-0 lg:left-[280px]"
+            style="background-position:center center; background-image:url('{section42}')"
+          >
+          <div class="h-full w-full px-4 flex flex-col justify-center text-right items-right">
+            <span class="text-2xl text-pink font-bold">Shoes</span>
+            <span class="text-base text-black">Fashion</span>
+          </div>
+        </div>
+        <div class="relative h-[120px] w-[260px] bg-cover sm:left-0 lg:left-[280px]"
+            style="background-position:center center; background-image:url('{section43}')"
+          >
+          <div class="h-full w-full px-4 flex flex-col justify-center text-right items-right">
+            <span class="text-2xl text-pink font-bold">Shoes</span>
+            <span class="text-base text-black">Fashion</span>
+          </div>
+        </div>
+        <div class="relative h-[120px] w-[260px] bg-cover sm:left-0 lg:left-[280px]"
+            style="background-position:center center; background-image:url('{section44}')"
+          >
+          <div class="h-full w-full px-4 flex flex-col justify-center text-right items-right">
+            <span class="text-2xl text-pink font-bold">Shoes</span>
+            <span class="text-base text-black">Fashion</span>
+          </div>
+        </div>
+        <div class="relative h-[120px] w-[260px] bg-cover sm:left-0 lg:left-[280px]"
+            style="background-position:center center; background-image:url('{section41}')"
+          >
+          <div class="h-full w-full px-4 flex flex-col justify-center text-right items-right">
+            <span class="text-2xl text-pink font-bold">Shoes</span>
+            <span class="text-base text-black">Fashion</span>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+
+    <!-- section-5 -->
+    
   </main>
