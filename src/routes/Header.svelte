@@ -8,7 +8,7 @@
 </script>
 
 <header class=" bg-white w-full">
-	<div class="flex items-center justify-between h-20 sm:px-4 md:px-12 lg:px-16 xl:px-24">
+	<div class="flex items-center justify-between h-[90px] sm:px-4 md:px-12 lg:px-16 xl:px-24">
 		<div class="flex items-center justify-start">
 			<a class="flex items-center gap-1" href="/">
 				<!-- <img class="h-8 w-8" src="{logoicon}" alt="logo"> -->
@@ -25,18 +25,12 @@
 		<div class=" sm:invisible sm:hidden xl:visible xl:flex ">
 			<!-- <div class=""> -->
 			<ul class="flex gap-2 ">
-				<li class="text-md uppercase font-bold px-4"><a href="/">Home <i class="fa-solid fa-angle-down"></i>
-
-					<!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-					<path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-				  	</svg> -->
-				  </a></li>
-				<li class="text-md uppercase font-bold px-4"><a href="/">Home <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="text-md uppercase font-bold px-4"><a href="/">Shop <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="text-md uppercase font-bold px-4"><a href="/">Product <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="text-md uppercase font-bold px-4"><a href="/">Voxo Plus <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="text-md uppercase font-bold px-4"><a href="/">Pages <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="text-md uppercase font-bold px-4"><a href="/">Blog <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4"><a href="/">Home <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4"><a href="/">Shop <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4"><a href="/">Product <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4"><a href="/">Voxo Plus <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4"><a href="/">Pages <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4"><a href="/">Blog <i class="fa-solid fa-angle-down"></i></a></li>
 			</ul>
 			<!-- </div> -->
 			<!-- <div> -->
@@ -49,10 +43,14 @@
 				<li><a href="/"><i class="fa-regular fa-user text-lg"></i></a></li>
 				<li class="flex sm:invisible sm:hidden md:visible md:flex"><a href="/"><i class="fa-regular fa-heart text-lg"></i></a></li>
 			</ul>
-			<div class="flex justify-end px-6 py-2 hover:border-2 hover:bg-white  bg-pink hover:border-pink sm:px-2 md:px-6">
-				<a class=" md:text-lg" href="/">
-					<i class="fa-solid fa-cart-shopping"></i>
-					<span class="pl-2 font-semibold">$4500.25</span>
+			<div class="flex justify-end px-[16px] py-[8px] border-white border-2 bg-pink hover:border-pink hover:border-2 hover:bg-white hover:text-black  sm:px-2 md:px-6 md:text-lg">
+				<a href="/">
+					<button class="text-sm text-white hover:text-black">
+						<i class="fa-solid fa-cart-shopping">
+							<span class="pl-2 font-semibold text-[14px]">$4500.25</span>
+						</i>
+					</button>
+					<!-- <span class="pl-2 font-semibold text-white text-base hover:text-black">$4500.25</span> -->
 				</a>
 			</div>
 		</div>
