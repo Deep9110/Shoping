@@ -1,4 +1,6 @@
 <script>
+  import Hero from '$lib/components/landing/Hero.svelte';
+  import LoopTesing from '$lib/components/LoopTesing.svelte';
   	import heroimage from '$lib/images/hero-image.jpg';
     import section21 from '$lib/images/section_2_1.jpg';
     import section22 from '$lib/images/section_2_2.jpg';
@@ -25,7 +27,12 @@
 </script>
 
 <main class="relative">
+  <!-- <Hero /> -->
+
+  <!-- <LoopTesing /> -->
+  <!-- section-1 -->
     <div class="relative flex w-full h-screen">
+      <!-- left side -->
         <div class="absolute h-screen flex flex-col justify-center items-start bg-[#232323] sm:p-4 sm:invisible sm:hidden sm:w-full md:p-8 lg:p-12 lg:visible lg:flex lg:w-[28%] ">
             <h1 class="text-[40px] text-white font-bold">Raw Ham Colorblock T-shirt</h1>
             <span class="flex gap-2 py-4 items-center">
@@ -146,44 +153,8 @@
           <!-- <img src="{heroimage}" alt=""> -->
         </div>
     </div>
-        <!-- <div class="flex iteed-full  text-slate-600 hover:text-pink bg-white p-[8px] hover:bg-[#e22e5b8a]"></i>
-            </span>
-            <span class="text-md font-bold text-black">26%<span class="hover:text-pink pl-1">OFF</span></span>
-          </div>ex justify-center bottom-[60px] left-[60px] right-[60px]">
-          <div class="flex flex-col items-center justify-center text-center h-[130px] w-[320px] bg-[#212121c1] hover:bg-[#e22e5bc1]">
-            <span class="text-2xl font-bold text-white">
-              New Hoodie
-            </span>
-            <span class="py-2">
-              <p class="uppercase text-md font-bold tracking-widest text-white">Buy One Get One free</p>
-            </span>
-          </div>
-        </div>
-      </div>
 
-      <div class="relative h-[400px] w-[450px] bg-cover"
-            style="background-position:center center; background-image:url('{section22}')"
-        >
-        <div class="absolute w-full">
-          <div class="flex items-center justify-between p-6">
-            <span>
-              <i class="fa-regular fa-heart text-md rounded-full  text-slate-600 hover:text-pink bg-white p-[8px] hover:bg-[#e22e5b8a]"></i>
-            </span>
-            <span class="text-md font-bold text-black">26%<span class="hover:text-pink pl-1">OFF</span></span>
-          </div>
-        </div>
-        <div class="absolute flex justify-center bottom-[60px] left-[60px] right-[60px]">
-          <div class="flex flex-col items-center justify-center text-center h-[130px] w-[320px] bg-[#212121c1] hover:bg-[#e22e5bc1]">
-            <span class="text-2xl font-bold text-white">
-              New Hoodie
-            </span>
-            <span class="py-2">
-              <p class="uppercase text-md font-bold tracking-widest text-white">Buy One Get One free</p>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div> -->
+    <!-- section-2  -->
 
     <div class="relative flex items-cente justify-center gap-6 sm:p-4 sm:flex-wrap md:p-12 md:flex-nowrap lg:p-16 ">
       <div class="relative h-[400px] w-[450px] bg-cover"
@@ -262,7 +233,7 @@
         <span class="font-bold text-3xl">New Arrival</span>
         <span class="font-semibold text-gray-500 text-base">Our collection</span>
       </div>
-      <div class="relative flex items-center justify-between gap-6 overflow-x-auto">
+      <div class="relative flex items-center justify-center gap-6 overflow-x-auto">
         <div class="flex flex-col">
           <div class="relative flex justify-center h-[410px] w-[320px] bg-cover "
           style="background-position:center center; background-image:url('{section31}'); "
@@ -415,7 +386,7 @@
 
     <!-- section-4 -->
 
-    <div class="relative flex flex-col pb-8 sm:px-4 md:px-12 lg:px-16">
+    <div class="relative flex justify-center flex-col pb-8 sm:px-4 md:px-12 lg:px-16">
       <div class="flex flex-col justify-center items-center p-4">
         <span class="font-bold text-3xl">Our Categories</span>
         <span class="font-semibold text-gray-500 text-base">Our collection</span>
@@ -549,11 +520,15 @@
         <span class="font-bold text-3xl">New Arrival</span>
         <span class="font-semibold text-gray-500 text-base">Our collection</span>
       </div>
-      <div class="grid grid-cols-4 grid-rows-2 gap-12 items-center justify-center place-items-center sm:grid-cols-1 sm:grid-rows-none md:grid-cols-2 md:grid-rows-4 lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-4 xl:grid-rows-2  ">
+      <div class="grid grid-cols-4 grid-rows-2 auto-cols-auto	gap-y-4 items-center justify-center place-items-center sm:grid-cols-1 sm:grid-rows-none md:grid-cols-2 md:grid-rows-4 lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-4 xl:grid-rows-2 ">
         <div class="flex flex-col  w-[320px]">
           <div class="relative flex justify-center h-[410px] w-[320px] bg-cover "
           style="background-position:center center; background-image:url('{section31}'); "
           >
+            <div class=" absolute top-[32px]">
+              <span class="bg-black p-2 text-white font-bold text-md mr-[80px] ">NEW</span>
+              <span class="bg-pink p-2 text-white font-bold text-md ml-[60px]">50% OFF</span>
+            </div>
             <div class="absolute flex items-center gap-2 px-6 bottom-4">
               <span class=" hover:visible">
                 <i class="fa-solid fa-bag-shopping text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
@@ -628,6 +603,10 @@
           <div class="relative flex justify-center h-[410px] w-[320px] bg-cover "
           style="background-position:center center; background-image:url('{section33}'); "
           >
+          <div class=" absolute top-[32px]">
+            <span class="bg-black p-2 text-white font-bold text-md mr-[80px] ">NEW</span>
+            <span class="bg-pink p-2 text-white font-bold text-md ml-[60px]">50% OFF</span>
+          </div>
             <div class="absolute flex items-center gap-2 px-6 bottom-4">
               <span class=" hover:visible">
                 <i class="fa-solid fa-bag-shopping text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>
@@ -702,6 +681,10 @@
           <div class="relative flex justify-center h-[410px] w-[320px] bg-cover "
           style="background-position:center center; background-image:url('{section32}'); "
           >
+            <div class=" absolute top-[32px]">
+              <span class="bg-black p-2 text-white font-bold text-md mr-[80px] ">NEW</span>
+              <span class="bg-pink p-2 text-white font-bold text-md ml-[60px]">50% OFF</span>
+            </div>
             <div class="absolute flex items-center gap-2 px-6 bottom-4">
               <span class=" hover:visible">
                 <i class="fa-solid fa-bag-shopping text-slate-600 hover:text-white bg-white p-[10px] hover:bg-[#e22e5b8a]"></i>

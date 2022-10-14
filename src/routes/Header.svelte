@@ -5,6 +5,8 @@
 	
 	import logoicon from '$lib/images/logo-icon.png';
 	import logo from '$lib/images/logo.png';
+	//import login from 'auth/login.svelte';
+
 </script>
 
 <header class=" bg-white w-full">
@@ -40,11 +42,33 @@
 		<div class="flex items-center gap-4">
 			<ul class="flex px-4 gap-4 sm:gap-2 sm:px-1 md:gap-4">
 				<li class=""><a href="/"><i class="fa-solid fa-magnifying-glass font-bold text-lg"></i></a></li>
-				<li><a href="/"><i class="fa-regular fa-user text-lg"></i></a></li>
-				<li class="flex sm:invisible sm:hidden md:visible md:flex"><a href="/"><i class="fa-regular fa-heart text-lg"></i></a></li>
+				<li><a href="./auth/login">
+					<i class="fa-regular fa-user text-lg"></i>
+				</a></li>
+				<li class="flex sm:invisible sm:hidden md:visible md:flex">
+					<a href="./wishlist"><i class="fa-regular fa-heart text-lg"></i></a></li>
+
+					<!-- <div class="w-full px-4 sm:w-1/2 lg:w-1/4">
+						<div class="mb-14">
+						  <div class="group relative inline-block">
+							<button
+							  class="inline-flex rounded bg-primary py-2 px-[18px] text-base font-semibold text-white"
+							>
+							  Tooltip on bottom
+							</button>
+							<div
+							  class="absolute top-full left-1/2 z-20 mt-3 -translate-x-1/2 whitespace-nowrap rounded bg-black py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100">
+							  <span
+								class="absolute top-[-3px] left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-sm bg-black"
+							  ></span>
+							  Tooltip Text
+							</div>
+						  </div>
+						</div>
+					</div> -->
 			</ul>
 			<div class="flex justify-end px-[16px] py-[8px] border-white border-2 bg-pink hover:border-pink hover:border-2 hover:bg-white hover:text-black  sm:px-2 md:px-6 md:text-lg">
-				<a href="/">
+				<a href="./cart">
 					<button class="text-sm text-white hover:text-black">
 						<i class="fa-solid fa-cart-shopping">
 							<span class="pl-2 font-semibold text-[14px]">$4500.25</span>
