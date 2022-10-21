@@ -10,8 +10,8 @@
 </script>
 
 <header class=" bg-white w-full">
-	<div class="flex items-center justify-between h-[90px] sm:px-4 md:px-12 lg:px-16 xl:px-24">
-		<div class="flex items-center justify-start">
+	<div class="flex items-center justify-between  h-[85px] sm:px-4 md:px-12 lg:px-16 xl:px-24">
+		<div class="flex items-center justify-start xl:w-[10%]">
 			<a class="flex items-center gap-1" href="/">
 				<!-- <img class="h-8 w-8" src="{logoicon}" alt="logo"> -->
 				<i class="fa-solid fa-star-of-life text-3xl text-pink font-bold"></i>
@@ -24,29 +24,39 @@
 			<!-- <img src="{logo}" alt="voxo"> -->
 	
 		</div>
-		<div class=" sm:invisible sm:hidden xl:visible xl:flex ">
+		<div class=" sm:invisible sm:hidden xl:visible xl:flex xl:w-[60%]  ">
 			<!-- <div class=""> -->
 			<ul class="flex gap-2 ">
-				<li class="uppercase font-bold px-4"><a href="/">Home <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="uppercase font-bold px-4"><a href="./shop">Shop <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="uppercase font-bold px-4"><a href="/product">Product <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="uppercase font-bold px-4"><a href="/">Voxo Plus <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="uppercase font-bold px-4"><a href="/profile">Pages <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="uppercase font-bold px-4"><a href="/">Blog <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4 text-sm"><a href="/">Home <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4 text-sm"><a href="./shop">Shop <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4 text-sm"><a href="/product">Product <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4 text-transparent text-sm bg-clip-text bg-gradient-to-r from-black to-pink"><a href="/"><span class="">Voxo Plus </span> <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4 text-sm"><a href="/profile">Pages <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4 text-sm"><a href="/">Blog <i class="fa-solid fa-angle-down"></i></a></li>
 			</ul>
 			<!-- </div> -->
 			<!-- <div> -->
 			
 			<!-- </div> -->
 		</div>
-		<div class="flex items-center gap-4">
-			<ul class="flex px-4 gap-4 sm:gap-2 sm:px-1 md:gap-4">
-				<li class=""><a href="/"><i class="fa-solid fa-magnifying-glass font-bold text-lg"></i></a></li>
+		<div class="xl:w-[30%] flex items-center sm:gap-4 lg:gap-6 xl:gap-8 justify-end">
+			<ul class="flex items-center px-4  sm:gap-2 sm:px-1 md:gap-4 xl:gap-6">
+				<li class=""><a href="/">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="22" height="22" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<circle cx="10" cy="10" r="7"></circle>
+						<line x1="21" y1="21" x2="15" y2="15"></line>
+					 </svg>
+					</a></li>
 				<li><a href="./auth/login">
 					<i class="fa-regular fa-user text-lg"></i>
 				</a></li>
-				<li class="flex sm:invisible sm:hidden md:visible md:flex">
-					<a href="./wishlist"><i class="fa-regular fa-heart text-lg"></i></a></li>
+				<li class="relative flex sm:invisible sm:hidden md:visible md:flex">
+					<a href="./wishlist"><i class="fa-regular fa-heart text-lg"></i>
+					</a>
+					<span class="absolute bg-pink left-3 bottom-4 rounded-full text-white font-bold text-[12px] px-[6px]">5</span>
+
+				</li>
 
 					<!-- <div class="w-full px-4 sm:w-1/2 lg:w-1/4">
 						<div class="mb-14">
@@ -69,10 +79,17 @@
 			</ul>
 			<div class="flex justify-end px-[16px] py-[8px] border-white border-2 bg-pink hover:border-pink hover:border-2 hover:bg-white hover:text-black  sm:px-2 md:px-6 md:text-lg">
 				<a href="./cart">
-					<button class="text-sm text-white hover:text-black">
-						<i class="fa-solid fa-cart-shopping">
-							<span class="pl-2 font-semibold text-[14px]">$4500.25</span>
-						</i>
+					<button class="flex items-center text-lg text-white hover:text-black">
+						
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="22" height="22" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<circle cx="6" cy="19" r="2"></circle>
+							<circle cx="17" cy="19" r="2"></circle>
+							<path d="M17 17h-11v-14h-2"></path>
+							<path d="M6 5l14 1l-1 7h-13"></path>
+						 </svg>
+						 <span class="pl-2 font-semibold text-[16px]">$4500.25</span>
+
 					</button>
 					<!-- <span class="pl-2 font-semibold text-white text-base hover:text-black">$4500.25</span> -->
 				</a>
