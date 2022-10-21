@@ -28,10 +28,10 @@
 			<!-- <div class=""> -->
 			<ul class="flex gap-2 ">
 				<li class="uppercase font-bold px-4"><a href="/">Home <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="uppercase font-bold px-4"><a href="/">Shop <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="uppercase font-bold px-4"><a href="/">Product <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4"><a href="./shop">Shop <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4"><a href="/product">Product <i class="fa-solid fa-angle-down"></i></a></li>
 				<li class="uppercase font-bold px-4"><a href="/">Voxo Plus <i class="fa-solid fa-angle-down"></i></a></li>
-				<li class="uppercase font-bold px-4"><a href="/">Pages <i class="fa-solid fa-angle-down"></i></a></li>
+				<li class="uppercase font-bold px-4"><a href="/profile">Pages <i class="fa-solid fa-angle-down"></i></a></li>
 				<li class="uppercase font-bold px-4"><a href="/">Blog <i class="fa-solid fa-angle-down"></i></a></li>
 			</ul>
 			<!-- </div> -->

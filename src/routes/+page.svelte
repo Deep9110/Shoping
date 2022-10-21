@@ -155,7 +155,7 @@
     </div>
 
     <!-- section-2  -->
-
+    
     <div class="relative flex items-cente justify-center gap-6 sm:p-4 sm:flex-wrap md:p-12 md:flex-nowrap lg:p-16 ">
       <div class="relative h-[400px] w-[450px] bg-cover"
             style="background-position:center center; background-image:url('{section21}')"
