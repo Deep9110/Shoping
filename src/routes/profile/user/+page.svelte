@@ -45,14 +45,14 @@
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <polyline points="9 6 15 12 9 18"></polyline>
                          </svg>
-                         <a href="/"><span class="">Dashboard</span></a> 
+                         <a href="/profile/address"><span class="">Saved Address</span></a> 
                     </span>
                     <span class="flex items-center font-semibold hover:text-pink">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <polyline points="9 6 15 12 9 18"></polyline>
                          </svg>
-                         <a href="/"><span class="">Dashboard</span></a> 
+                         <a href="/profile/reviews"><span class="">Reviews</span></a> 
                     </span>
                 
             </div>   

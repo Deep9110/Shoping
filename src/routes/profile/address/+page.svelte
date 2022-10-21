@@ -51,7 +51,7 @@
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <polyline points="9 6 15 12 9 18"></polyline>
                          </svg>
-                         <a href="/"><span class="">Dashboard</span></a> 
+                         <a href="/profile/reviews"><span class="">Reviews</span></a> 
                     </span>
                 
             </div>   
