@@ -62,26 +62,84 @@
                 <span class="text-xl font-bold">Save Address</span>
                 <a href="/"><button class="text-white text-sm font-bold py-3 px-4 bg-pink  hover:border-2 hover:border-pink hover:bg-white hover:text-black"><span class=" font-bold">&plus;</span>Add New Address</button></a>
             </div>
-            <div class="flex gap-4 sm:flex-col lg:flex-row">
-                <div class="h-[260px] w-[350px] bg-[#eff2f7] rounded-md p-4">
+            <div class="flex pt-4 gap-4 w-full leading-7 sm:flex-col sm:justify-center sm:items-center lg:items-start lg:justify-start lg:flex-row">
+                <div class="h-[260px] w-[350px] gap-4 bg-[#eff2f7] rounded-md p-4">
                     <div class="flex justify-between items-center">
                         <span class="text-lg">Mark Jugal</span>
                         <a href="/"><button class="text-white text-sm font-bold py-2 px-4 bg-pink  rounded">Home</button></a>
                     </div>
-                    <span class="text-gray-500">549 Sulphur Springs Road<br>
+                    <span class="text-gray-500 py-8">549 Sulphur Springs Road<br>
 
                         Downers Grove, IL<br>
                         
                         60515</span>
+                        <br>
 
-                    <span class="text-sm text-gray-500">Mobile No. +1-123-456-7890
+                    <span class=" py-12 text-sm text-gray-500">Mobile No. +1-123-456-7890
                     </span>
 
-                    <div class="flex gap-2 cursor-pointer">
+                    <div class="flex gap-2 pt-4">
+                        <a href="/"><button class="py-3 px-14 bg-white text-sm">Edit</button></a>
+                        <a href="/"><button class="py-3 px-14 bg-white text-sm">Remove</button></a>
+                    </div>
+                </div>
+                <div class="h-[260px] w-[350px] gap-4 bg-[#eff2f7] rounded-md p-4">
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg">Mark Jugal</span>
+                        <a href="/"><button class="text-white text-sm font-bold py-2 px-4 bg-pink  rounded">Home</button></a>
+                    </div>
+                    <span class="text-gray-500 py-8">549 Sulphur Springs Road<br>
 
+                        Downers Grove, IL<br>
+                        
+                        60515</span>
+                        <br>
+
+                    <span class=" py-12 text-sm text-gray-500">Mobile No. +1-123-456-7890
+                    </span>
+
+                    <div class="flex gap-2 pt-4">
+                        <a href="/"><button class="py-3 px-14 bg-white text-sm">Edit</button></a>
+                        <a href="/"><button class="py-3 px-14 bg-white text-sm">Remove</button></a>
+                    </div>
+                </div>
+                <div class="h-[260px] w-[350px] gap-4 bg-[#eff2f7] rounded-md p-4">
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg">Mark Jugal</span>
+                        <a href="/"><button class="text-white text-sm font-bold py-2 px-4 bg-pink  rounded">Home</button></a>
+                    </div>
+                    <span class="text-gray-500 py-8">549 Sulphur Springs Road<br>
+
+                        Downers Grove, IL<br>
+                        
+                        60515</span>
+                        <br>
+
+                    <span class=" py-12 text-sm text-gray-500">Mobile No. +1-123-456-7890
+                    </span>
+
+                    <div class="flex gap-2 pt-4">
+                        <a href="/"><button class="py-3 px-14 bg-white text-sm">Edit</button></a>
+                        <a href="/"><button class="py-3 px-14 bg-white text-sm">Remove</button></a>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="h-[250px] flex items-center gap-4 justify-between w-full max-w-auto sm:flex-col sm:justify-center sm:text-center sm:p-4 mt-[80px] md:justify-between md:text-start md:flex-row lg:p-12 xl:p-16 bg-gray-300">
+        <div class="gap-4 flex flex-col">
+            <span class="text-2xl font-bold">Subscribe Our News</span>
+            <span class="text-base text-slate-500">Subscribe and receive our newsletters to follow the news about our fresh and fantastic Products.
+            </span>
+        </div>
+        <div class="flex">
+            <div class="relative sm:w-64 w-40 ">
+                <input type="text" id="footer-field" name="footer-field" placeholder=" Your Email Address" class="w-full bg-white-300 bg-opacity-50 focus:ring-indigo-200 focus:pink text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <button class="inline-flex text-white bg-pink border-0 py-2 px-4 focus:outline-none ">
+                Button
+            </button>
         </div>
     </div>
 </div>
