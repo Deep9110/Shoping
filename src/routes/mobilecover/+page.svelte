@@ -52,6 +52,8 @@
 
 
 <script>
+ // import EachItems from "$lib/components/EachItems.svelte";
+
     let menuitems= [
         {
         "name" : "voxoplus",
@@ -100,22 +102,20 @@
  
     ]
 </script>
-{#each menuitems as items}
-<div class="menu">
-    <ul>{items.name}</ul>
 
-   <!-- // <li>{{items.name}.submenu}</li>
-     -->
-    <!-- {#each name as items}
-        <li>items.name</li>
-    {/each} -->
-    <!-- {#each submenu as subitems}
-    <li>{subitems.name}</li>
-    {/each} -->
-    {#each menuitems.submenu as subitems}
-        <li>{subitems.submenu}</li>
+<div class="menu">
+    {#each menuitems as menuitem}
+    <div class="">{menuitem.name}</div>
+        {#each menuitem.submenu as submenuitem}
+
+        <ul class="">{submenuitem.name}</ul>
+
+            {#each submenuitem.submenu as submenuname}
+                <li>{submenuname.name}</li>
+            {/each}
+        {/each}
+   
     {/each}
-    
+
 </div>
-{/each}
 
