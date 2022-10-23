@@ -1,5 +1,12 @@
 <script>
-      	import cartimage1 from '$lib/images/image1.jpg';
+      	import cartimage1 from '$lib/images/image1.jpg';    
+
+        let people = [
+            {name: "yellow jacket", price:"63$", quantity:"1", action:"x", total:"$3650", id:1},
+            {name: "green jacket", price:"63$", quantity:"1", action:"x", total:"$3650", id:2},
+            {name: "red jacket", price:"63$", quantity:"1", action:"x", total:"$3650", id:3},
+            
+        ];
 
 </script>
 
@@ -48,6 +55,7 @@
         </tr>
       </thead>
       <tbody>
+        {#each people as person (person.id)}
         <!-- row 1 -->
         <tr>
           <th>
@@ -55,22 +63,23 @@
                 <img class="w-[50px] h-[80px]" src="{cartimage1}" alt="">
             </a>
           </th>
-          <td class="text-slate-500">Yello Jacket</td>
+          <td class="text-slate-500">{person.name}</td>
           <td class="text-pink font-semibold text-xl">
-            $63.00
+            {person.price}
           </td>
-          <td><span class="border-2 px-6 py-4 rounded">1</span></td>
+          <td><span class="border-2 px-6 py-4 rounded">{person.quantity}</span></td>
 
           <td>
             <span class=" px-4"><i class="fa-solid fa-xmark text-slate-500"></i></span>
           </td>
 
           <td>
-            <span class="text-black font-bold text-xl">$3650.00</span>
+            <span class="text-black font-bold text-xl">{person.total}</span>
           </td>
         </tr>
+        {/each}
         <!-- row 2 -->
-        <tr>
+        <!-- <tr>
           <th>
             <a href="/">
                 <img class="w-[50px] h-[80px]" src="{cartimage1}" alt="">
@@ -89,9 +98,9 @@
           <td>
             <span class="text-black font-bold text-xl">$4650.00</span>
           </td>
-        </tr>
+        </tr> -->
         <!-- row 3 -->
-        <tr>
+        <!-- <tr>
           <th>
             <a href="/">
                 <img class="w-[50px] h-[80px]" src="{cartimage1}" alt="">
@@ -110,7 +119,9 @@
           <td>
             <span class="text-black font-bold text-xl">$6650.00</span>
           </td>
-        </tr>
+        </tr> -->
+       
+
       </tbody>
     </table>
 </div>
