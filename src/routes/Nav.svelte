@@ -7,6 +7,8 @@
 	import logo from '$lib/images/logo.png';
 	//import login from 'auth/login.svelte';
 
+	import Megamenu from "$lib/components/MegaMenu.svelte"
+
 </script>
 
 <header class=" bg-white w-full">
@@ -26,14 +28,19 @@
 		</div>
 		<div class=" sm:invisible sm:hidden xl:visible xl:flex xl:w-[60%]  ">
 			<!-- <div class=""> -->
-			<ul class="flex gap-2 ">
+			<!-- <ul class="flex gap-2 ">
 				<li class="uppercase font-bold px-4 text-sm"><a href="/">Home <i class="fa-solid fa-angle-down"></i></a></li>
+				<div>
+					
+				</div>
 				<li class="uppercase font-bold px-4 text-sm"><a href="./shop">Shop <i class="fa-solid fa-angle-down"></i></a></li>
 				<li class="uppercase font-bold px-4 text-sm"><a href="/product">Product <i class="fa-solid fa-angle-down"></i></a></li>
 				<li class="uppercase font-bold px-4 text-transparent text-sm bg-clip-text bg-gradient-to-r from-black to-pink"><a href="/"><span class="">Voxo Plus </span> <i class="fa-solid fa-angle-down"></i></a></li>
 				<li class="uppercase font-bold px-4 text-sm"><a href="/profile">Pages <i class="fa-solid fa-angle-down"></i></a></li>
 				<li class="uppercase font-bold px-4 text-sm"><a href="/">Blog <i class="fa-solid fa-angle-down"></i></a></li>
-			</ul>
+			</ul> -->
+
+			<Megamenu />
 			<!-- </div> -->
 			<!-- <div> -->
 			

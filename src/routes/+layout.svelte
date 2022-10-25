@@ -1,20 +1,20 @@
 <script>
-	import Header from './Header.svelte';
+	import Nav from './Nav.svelte';
 	// import './styles.css';
 	import "../app.css";
   import Footer from './Footer.svelte';
 </script>
 
 <div class="app">
-		<Header />
+		<Nav />
 
 	<main>
 		<slot />
 	</main>
 	
-	<footer>
-		<Footer />
-	</footer>
+	
+	<Footer />
+	
 </div>
 
 <style>

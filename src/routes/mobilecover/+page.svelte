@@ -1,30 +1,68 @@
 <script>
   import EachItems from "$lib/components/EachItems.svelte";
-import { stringify } from "postcss";
+  import { stringify } from "postcss";
   import { children } from "svelte/internal";
 
   export let data = { megamenu: [] }
 </script>
 
+
+
+
 <div class="menu">
   {#if data?.megamenu}
-  
-
+  <ul class="flex gap-2 ">
     {#each data.megamenu as menuitem}
-      <!-- {JSON.stringify(menuitem)} -->
-      {menuitem.name}
-        {#each menuitem.children as childelement}
-          <div>
-            {childelement.name}
-            <div>
-              {#each childelement.children as subchild}
-                {subchild.name}
-              {/each}
-            </div>
-          </div>
-         
-        {/each}
+    
+      <li>{menuitem.name}</li>
+
+      <div class="">
+        
+        
+      </div>
+
     {/each}
- 
+    </ul>
   {/if}
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  /* since nested groupes are not supported we have to use 
+     regular css for the nested dropdowns 
+  */
+  li>ul                 { transform: translatex(100%) scale(0) }
+  li:hover>ul           { transform: translatex(101%) scale(1) }
+  li > button svg       { transform: rotate(-90deg) }
+  li:hover > button svg { transform: rotate(-270deg) }
+
+  /* Below styles fake what can be achieved with the tailwind config
+     you need to add the group-hover variant to scale and define your custom
+     min width style.
+     See https://codesandbox.io/s/tailwindcss-multilevel-dropdown-y91j7?file=/index.html
+     for implementation with config file
+  */
+  .group:hover .group-hover\:scale-100 { transform: scale(1) }
+  .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
+  .scale-0 { transform: scale(0) }
+  .min-w-32 { min-width: 8rem }
+</style>
